@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: "http://localhost:5500/api",
+    baseURL: "https://thinkboard-0bbi.onrender.com/api",
     withCredentials: true,
 });

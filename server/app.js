@@ -10,7 +10,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 // CORS middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://think-pbok.onrender.com', // Replace with your frontend URL
     credentials: true,
 }));
 
